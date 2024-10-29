@@ -1,4 +1,5 @@
 import React from 'react'
+import PDF from './assets/nick_roberts_resume.pdf';
 
 const NavBar = () => {
 
@@ -9,7 +10,7 @@ const NavBar = () => {
             <a href="#skills" className={menuItem}>Skills</a>
             <a href="#projects" className={menuItem}>Projects</a>
             <a href="#personal-projects" className={menuItem}>Personal</a>
-            <a href="" className={menuItem}>Resume</a>
+            <a href={PDF} target="_blank" className={menuItem}>Resume</a>
         </div>
     )
 }
