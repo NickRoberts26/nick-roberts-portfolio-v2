@@ -115,13 +115,25 @@ const App = () => {
                         <h2 className='text-center text-3xl lg:text-6xl font-bold bg-bl mb-12'>Personal Projects</h2>
                         <div className='mb-16'>
                             <div className='grid grid-cols-1 lg:grid-cols-2 mb-2'>
+                                <a href='https://marketeer-market-scheduler.vercel.app/' target="_blank" className='lg:order-2'>
+                                    <img src="/marketeer-screenshot.PNG" alt="" className='glow border-2 border-green-400 rounded-xl mb-6 lg:mb-0' />
+                                </a>
+                                <div className='flex flex-col justify-center mr-4'>
+                                    <h3 className='text-2xl lg:text-4xl font-bold mb-2'>Marketeer</h3>
+                                    <h4 className='text-lg lg:text-xl mb-2'>Market scheduling platform designed to connect users with marketplace owners.</h4>
+                                    <p className='text-sm'>Built with: Next.js - Typescript - Tailwind CSS - Google Firebase</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='mb-16'>
+                            <div className='grid grid-cols-1 lg:grid-cols-2 mb-2'>
                                 <a href='https://pit-stop-seven.vercel.app/' target="_blank" className=''>
                                     <img src="/pit-stop.PNG" alt="" className='glow border-2 border-green-400 rounded-xl mb-6 lg:mb-0' />
                                 </a>
                                 <div className='lg:ml-6 flex flex-col justify-center lg:text-right'>
                                     <h3 className='text-2xl lg:text-4xl font-bold mb-2'>PitStop</h3>
-                                    <h4 className='text-lg lg:text-xl'>Formula 1 themed social media/forum app</h4>
-                                    <p>Built with: React.js - Google Fireabase - Tailwind CSS</p>
+                                    <h4 className='text-lg lg:text-xl mb-2'>Formula 1 themed social media/forum app</h4>
+                                    <p className='text-sm'>Built with: React.js - Google Fireabase - Tailwind CSS</p>
                                 </div>
                             </div>
                         </div>
@@ -132,8 +144,8 @@ const App = () => {
                                 </a>
                                 <div className='flex flex-col justify-center'>
                                     <h3 className='text-2xl lg:text-4xl font-bold mb-2'>Pokemon Pack Opener</h3>
-                                    <h4 className='text-lg lg:text-xl'>Pokemon card collecting game</h4>
-                                    <p>Built with: React.js - API <a href="https://pokeapi.co/" target="_blank" className='text-green-400 hover:underline'>(pokeapi)</a> - Tailwind CSS</p>
+                                    <h4 className='text-lg lg:text-xl mb-2'>Pokemon card collecting game</h4>
+                                    <p className='text-sm'>Built with: React.js - API <a href="https://pokeapi.co/" target="_blank" className='text-green-400 hover:underline'>(pokeapi)</a> - Tailwind CSS</p>
                                 </div>
                             </div>
                         </div>
