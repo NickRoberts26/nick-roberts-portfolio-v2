@@ -88,7 +88,7 @@ const App = () => {
                         </div>
                         <div className='mb-16'>
                             <div className='grid grid-cols-1 lg:grid-cols-2 mb-2'>
-                                <a href='https://www.ampr.com.au/' target="_blank" className=''>
+                                <a href='https://sagespace.au/' target="_blank" className=''>
                                     <img src="/ss-cover.PNG" alt="" className='glow border-2 border-green-400 rounded-xl mb-6 lg:mb-0' />
                                 </a>
                                 <div className='lg:ml-6 flex flex-col justify-center lg:text-right'>
@@ -99,7 +99,7 @@ const App = () => {
                         </div>
                         <div className='mb-16'>
                             <div className='grid grid-cols-1 lg:grid-cols-2 mb-2'>
-                                <a href='https://www.ampr.com.au/' target="_blank" className='lg:order-2'>
+                                <a href='https://australianbirthstories.com/' target="_blank" className='lg:order-2'>
                                     <img src="/abs-cover.PNG" alt="" className='glow border-2 border-green-400 rounded-xl mb-6 lg:mb-0' />
                                 </a>
                                 <div className='flex flex-col justify-center'>
