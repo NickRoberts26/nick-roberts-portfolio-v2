@@ -19,7 +19,7 @@ const App = () => {
                         <h3 className="font-bold text-xl lg:text-2xl text-white mb-6 lg:mb-3">Web Developer</h3>
                     </header>
                     <div className='flex flex-col justify-center text-center lg:text-left'>
-                        <p className="mb-7 text-sm lg:text-lg">I am a <span className='text-green-400'>web developer</span> passionate about bringing websites to life. I love the challenge of transforming ideas into <span className='text-green-400'>user-friendly interfaces</span> and am always looking towards exploring new opprtunities to grow and enhance my skills.</p>
+                        <p className="mb-7 text-sm lg:text-lg">I am a <span className='text-green-400'>freelance web developer</span> passionate about bringing websites to life. I love the challenge of transforming ideas into <span className='text-green-400'>user-friendly interfaces</span> and am always looking towards exploring new opprtunities to grow and enhance my skills.</p>
                         <p className="mb-0 text-sm lg:text-lg">Outside of the coding world, you'll find me hitting the pavement for a run <i class="fa-solid fa-person-running text-green-400"></i> or playing whichever video game <i class="fa-solid fa-gamepad text-green-400"></i> currently has a hold on me. The balance between <span className='text-green-400'>creative problem-solving</span> and exploring my hobbies keeps me energized and brings a fresh perspective to my development work.</p>
                     </div>
                     <a href='#skills' className='absolute bottom-12 left-[47%] lg:left-[49%] animate-bounce'>
